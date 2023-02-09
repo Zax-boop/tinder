@@ -1,0 +1,17 @@
+.art-btns {
+    margin: 10px;
+    color: #242424;
+    display: column;
+    margin-left: 1200px;
+    text-decoration: "/";
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+
+.art-btns .btn {
+    margin-top: 80px;
+}

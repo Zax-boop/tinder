@@ -1,0 +1,24 @@
+.CardDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.ImgDiv {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 19rem;
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    color: black;
+}
+
+body {
+    font-family: Rubik;
+  }
+.swipe {
+    position: absolute;
+}
+  

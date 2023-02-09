@@ -1,0 +1,75 @@
+.ICON {
+    font-size: 1.5rem;
+    padding: 0.3rem;
+    cursor: pointer;
+    padding: 1rem;
+    /* background-color: black; */
+}
+
+.FooterWrapper {
+    width: 300px;
+    max-height: 700px;
+    padding-top: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.icon-flex, .icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-wrapper {
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    font-size: 1.9rem;
+    width: 50px;
+    height: 50px;
+    
+}
+.icon-wrapper i {
+    color: rgb(192, 192, 192);
+}
+
+
+.icon-flex-times, .icon-wrapper-times {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-wrapper-times {
+    border-radius: 50%;
+    overflow: hidden;
+    /* border: 1px solid #ff655b; */
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+    font-size: 1.9rem;
+    width: 50px;
+    height: 50px;
+    
+}
+.icon-wrapper-times i {
+    color: #ff655b;
+}
+
+.icon-flex-heart, .icon-wrapper-heart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-wrapper-heart {
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    font-size: 1.9rem;
+    width: 50px;
+    height: 50px;
+    
+}
+.icon-wrapper-heart i {
+    color: rgb(187, 226, 142);
+}
