@@ -2,54 +2,43 @@
     --primary: #242424;
   }
   
-  .btn {
-    padding: 8px 40px;
+  .btn-ad {
+    padding: 8px 20px;
     border-radius: 2px;
     outline: none;
     cursor: pointer;
     color: #242424;
   }
   
-  .btn--primary {
-    background: #fff;
+  .btn-ad--primary {
+    background-color: var(--primary);
     color: #242424;
-    border: transparent;
-    transition: all 0.3s ease-out;
-    border-radius: 10px;
-    margin-top: 3rem;
+    border: 1px solid var(--primary);
+    border-radius: 20px;
   }
   
-  .btn--outline {
+  .btn-ad--outline {
     background: linear-gradient(90deg, #fd297b 0%, #ff5864 50%,  #ff655b 100%);
     color: #fff;
     padding: 8px 20px;
     border: 1px solid var(--primary);
     transition: all 0.3s ease-out;
     border-radius: 20px;
-  }
 
+  }
   
-  .btn--medium {
+  .btn-ad--medium {
     padding: 8px 20px;
     font-size: 18px;
   }
   
-  .btn--large {
-    width: 300px;
-    height: 50px
-  }
-
-  .btn--ad {
-    width: 300px;
-    height: 100px;
-  }
-  .btns-edit {
-    width: 300px;
-    height: 100px
+  .btn-ad--large {
+    padding: 12px 26px;
+    font-size: 20px;
   }
   
-  .btn--large:hover,
-  .btn--medium:hover {
+  .btn-ad--large:hover,
+  .btn-ad--medium:hover {
     transition: all 0.3s ease-out;
     background: #fff;
     color: #242424;

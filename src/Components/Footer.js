@@ -10,7 +10,6 @@ const Footer = () => {
           color: "rgb(192, 192, 192)"
         }}
       >
-        {/* <i class="fa fa-redo fa-flip-horizontal"/>                */}
         <div class="icon-flex">
           <div class="icon-wrapper">
             <i class="fa fa-redo fa-flip-horizontal"></i>

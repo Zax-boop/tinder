@@ -20,18 +20,29 @@
   
   .navbar-logo {
     color: #fff;
-    /* justify-self: start; */
-    /* margin-right: 10px; */
+    margin-right: 10px;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
     display: flex;
     align-items: center;
+    font-family: 'Gotham Rounded', sans-serif;
+  }
+
+  .navbar-avatar {
+    color: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    font-family: 'Gotham Rounded', sans-serif;
   }
   
   .fa-fire {
     margin-left: 0.5rem;
-    font-size: 1.9rem;
+    font-size: 1.6rem;
   }
   
   .nav-menu {
@@ -48,6 +59,7 @@
   
   .nav-item {
     height: 80px;
+    font-family: 'Gotham Rounded', sans-serif;
   }
   
   .nav-links {
@@ -57,6 +69,7 @@
     text-decoration: none;
     padding: 0.5rem 1rem;
     height: 100%;
+    font-family: 'Gotham Rounded', sans-serif;
   }
   
   .nav-links:hover {

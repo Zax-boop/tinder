@@ -1,13 +1,13 @@
 * {
-  /* box-sizing: border-box; */
   margin: 0;
   padding: 0;
-  font-family: 'Gotham-Rounded';
+  font-family: 'Gotham Rounded', sans-serif;
 }
 
 .Home,
 .art,
 .blog,
+.feed,
 .contact-me {
   display: flex;
   height: 90vh;

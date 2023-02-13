@@ -1,0 +1,39 @@
+.background-feed {
+  background-color: lightgrey;
+}
+
+.container {
+  display: flex;
+  gap: 18rem;
+}
+
+.container-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.DivWrapper-hero {
+  margin-top: 3rem;
+}
+
+
+
+.footer-settings {
+  display: flex;
+  justify-content: center;
+  transform: translate(15%, 575%);
+}
+
+.filter-settings {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+
+body {
+    font-family: Rubik;
+  }
+.swipe {
+    position: absolute;
+}

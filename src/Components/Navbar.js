@@ -2,7 +2,6 @@ import React, {useState, useEffect} from 'react'
 import { Link } from "react-router-dom"
 import { Button } from './Button'
 import './Navbar.css';
-import { profile_pic } from './profile_pic';
 import Avatar from 'react-avatar';
 
 
@@ -40,23 +39,14 @@ function Navbar() {
     <>
         <nav className='navbar'>
             <div className='navbar-container'> 
-                <Link to='/Feed' className="navbar-logo" onClick={closeMobileMenu}> {/* creates link to home page of website */}
-                    Tinder 
+                <Link to='/Feed' className="navbar-logo" onClick={closeMobileMenu}> 
+                    bunder 
                     <i class="fa fa-fire"></i>                
                 </Link>
-                <div className='menu-icon' onClick={handleClick}> {/* implement click for menu bar */}
+                <div className='menu-icon' onClick={handleClick}> 
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                    {/* <li className='nav-item'>
-                        <Link 
-                        to='/Home'
-                        className='nav-links' 
-                        onClick={closeMobileMenu}
-                        >
-                            Matches
-                        </Link>
-                    </li> */}
                     <li className='nav-item'>
                         <Link 
                         to='/Messages' 
@@ -66,27 +56,8 @@ function Navbar() {
                             Messages
                         </Link>
                     </li>
-                    {/* <li className='nav-item'>
-                        <Link 
-                        to='/blog' 
-                        className='nav-links' 
-                        onClick={closeMobileMenu}
-                        >
-                            Profile
-                        </Link>
-                    </li>
-                    <li className='nav-item'>
-                        <Link 
-                        to='/about-me' 
-                        className='nav-links-mobile' 
-                        onClick={closeMobileMenu}
-                        >
-                            Profile
-                        </Link>
-                    </li> */}
                 </ul>
-                {/* {button && <Button buttonStyle='btn--outline' link='Profile'>About Me!</Button>} */}
-                <Link to='/Profile' className="navbar-logo" onClick={closeMobileMenu}> {/* creates link to home page of website */}
+                <Link to='/Profile' className="navbar-avatar" onClick={closeMobileMenu}> 
                     <Avatar src='/images/profile.jpeg' round="30px" size='60'/>
                 </Link>
             </div>

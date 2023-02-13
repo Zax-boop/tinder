@@ -1,0 +1,56 @@
+.CardDiv-Profile {
+    display: flex;
+    justify-content: top;
+    margin-bottom: 23rem;
+}
+  
+.ImgDiv-Profile {
+    display: flex;
+    border-radius: 3%;
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    color: black;
+}
+
+.h1-profile {
+    font-family: 'Gotham Rounded', sans-serif;
+}
+
+.h2-profile {
+    display: inline-flex;
+    font-family: 'Gotham Rounded', sans-serif;
+}
+
+.h2-space {
+    display: flex;
+    margin-right: 0.2rem;
+}
+
+.h3-space {
+    display: flex;
+    margin-right: 0.2rem;
+}
+
+.h3-profile {
+    display: inline-flex;
+    font-family: 'Gotham Rounded', sans-serif;
+}
+
+.h4-space {
+    display: flex;
+    margin-right: 0.2rem;
+}
+
+.h4-profile {
+    display: inline-flex;
+    font-family: 'Gotham Rounded', sans-serif;
+}
+
+body {
+    font-family: Rubik;
+  }
+.swipe {
+    position: absolute;
+}
+  

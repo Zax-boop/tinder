@@ -1,24 +1,32 @@
-.CardDiv {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-  
-.ImgDiv {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    margin-top: 19rem;
-    width: 300px;
-    height: 300px;
+.ImgDiv-feed {
+    border-radius: 3%;
+    width: 400px;
+    height: 400px;
     background-size: cover;
     color: black;
+    font-family: 'Gotham Rounded', sans-serif;
+}
+
+.h1 {
+    font-family: 'Gotham Rounded', sans-serif;
+}
+
+.h2 {
+    font-family: 'Gotham Rounded', sans-serif;
+}
+
+.h3 {
+    font-family: 'Gotham Rounded', sans-serif;
 }
 
 body {
-    font-family: Rubik;
+    font-family: Gotham Rounded;
   }
 .swipe {
     position: absolute;
 }
   
+
+.foot-card {
+    margin-left: 3.3rem;
+}

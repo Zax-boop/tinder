@@ -1,0 +1,105 @@
+.ads {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 100vh;
+    border-right: 1px solid rgb(200, 195, 195);
+}
+
+.plat-heading {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 0.75rem;
+    gap: 0px 3px;
+}
+
+.plat {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.plat-sign {
+    font-size: 0.65rem;
+}
+
+.plat-subheading {
+    font-size: 0.7rem;
+    font-weight: normal;
+
+}
+
+.gold-heading {
+    display: flex;
+    justify-content: center;
+    color: gold;
+    font-size: 0.75rem;
+    gap: 0px 3px;
+}
+
+.gold {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.gold-sign {
+    font-size: 0.65rem;
+}
+
+.gold-subheading {
+    font-size: 0.7rem;
+    font-weight: normal;
+}
+
+.plus-heading {
+    display: flex;
+    justify-content: center;
+    background: -webkit-linear-gradient(90deg, #fd297b 0%, #ff5864 50%,  #ff655b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 0.75rem;
+    gap: 0px 3px;
+}
+
+.plus {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.plus-sign {
+    font-size: 0.65rem;
+}
+
+.plus-subheading {
+    font-size: 0.7rem;
+    font-weight: normal;
+}
+
+.upgrade-heading {
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size: 0.45rem;
+    gap: 0px 3px;
+}
+
+.upgrade {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.upgrade-subheading {
+    font-size: 0.7rem;
+    font-weight: normal;
+}
+
+.adbtn-settings {
+    display: flex;
+    padding-bottom: 5px;
+    width: 375px;
+    padding-left: 25px;
+}

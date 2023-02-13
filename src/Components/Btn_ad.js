@@ -1,12 +1,12 @@
 import React from 'react';
-import './Button.css';
+import './Btn_ad.css';
 import { Link } from 'react-router-dom';
 
-const STYLES = ['btn--primary', 'btn--outline', 'btn--test'];
+const STYLES = ['btn-ad--primary', 'btn-ad--outline', 'btn-ad--test'];
 
-const SIZES = ['btn--medium', 'btn--large', 'btn--ad'];
+const SIZES = ['btn-ad--medium', 'btn-ad--large'];
 
-export const Button = ({
+export const Btn_ad = ({
   children,
   type,
   onClick,
@@ -21,9 +21,9 @@ export const Button = ({
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
   return (
-    <Link to={link} className='btn-mobile'>
+    <Link to={link} className='btn-ad-mobile'>
         <button
-            className={`btn ${checkButtonStyle} ${checkButtonSize}`}
+            className={`btn-ad ${checkButtonStyle} ${checkButtonSize}`}
             onClick={onClick}
             type={type}
         >

@@ -3,16 +3,15 @@
     padding: 0.3rem;
     cursor: pointer;
     padding: 1rem;
-    /* background-color: black; */
 }
 
 .FooterWrapper {
     width: 300px;
-    max-height: 700px;
-    padding-top: 20rem;
+    max-height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: transparent;
 }
 
 
@@ -25,14 +24,20 @@
 .icon-wrapper {
     border-radius: 50%;
     overflow: hidden;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 10px 10px rgba(105, 105, 105, 0.25), 0 5px 5px rgba(146, 144, 144, 0.22);
+    background-color: white;
     font-size: 1.9rem;
     width: 50px;
     height: 50px;
+    border: 1px solid rgb(192, 192, 192);
     
 }
 .icon-wrapper i {
     color: rgb(192, 192, 192);
+}
+
+.icon-wrapper:hover {
+    transform: scale(1.1);
 }
 
 
@@ -44,16 +49,20 @@
 .icon-wrapper-times {
     border-radius: 50%;
     overflow: hidden;
-    /* border: 1px solid #ff655b; */
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-
+    box-shadow: 0 10px 10px rgba(105, 105, 105, 0.25), 0 5px 5px rgba(146, 144, 144, 0.22);
+    background-color: white;
     font-size: 1.9rem;
     width: 50px;
     height: 50px;
+    border: 1px solid #ff655b;
     
 }
 .icon-wrapper-times i {
     color: #ff655b;
+}
+
+.icon-wrapper-times:hover {
+    transform: scale(1.1);
 }
 
 .icon-flex-heart, .icon-wrapper-heart {
@@ -64,12 +73,20 @@
 .icon-wrapper-heart {
     border-radius: 50%;
     overflow: hidden;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 10px 10px rgba(105, 105, 105, 0.25), 0 5px 5px rgba(146, 144, 144, 0.22);
+    background-color: white;
     font-size: 1.9rem;
     width: 50px;
     height: 50px;
-    
+    border: 1px solid rgb(187, 226, 142);
+
 }
 .icon-wrapper-heart i {
     color: rgb(187, 226, 142);
+    animation-name: fade-img;
+    animation-duration: 2s;
+}
+
+.icon-wrapper-heart:hover {
+    transform: scale(1.1);
 }

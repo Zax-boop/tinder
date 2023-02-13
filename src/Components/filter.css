@@ -1,0 +1,22 @@
+* {
+    font-family: 'Gotham Rounded', sans-serif;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10rem;
+    font-family: 'Gotham Rounded', sans-serif;
+
+}
+
+.checkbox {
+    margin-right: 2rem;
+    font-family: 'Gotham Rounded', sans-serif;
+
+}
+
+.filter-heading {
+    font-family: 'Gotham Rounded', sans-serif;
+
+}
